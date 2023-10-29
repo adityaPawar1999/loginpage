@@ -21,8 +21,9 @@ function App() {
       <ButtonContainer>
         <Button content="Sign Up" />
       </ButtonContainer>
-      <LoginWith>OR LOGIN WITH</LoginWith>
+      <ForgotPassword>Forgot Password ?</ForgotPassword>
       <HorizontalRule />
+      <LoginWith>OR LOGIN WITH</LoginWith>
       <IconsContainer>
         <Icon color={FacebookBackground}>
           <FaFacebookF />
@@ -34,7 +35,6 @@ function App() {
           <FaTwitter />
         </Icon>
       </IconsContainer>
-      <ForgotPassword>Forgot Password ?</ForgotPassword>
     </MainContainer>
   );
 }
@@ -113,6 +113,7 @@ const ButtonContainer = styled.div`
 `;
 
 const LoginWith = styled.h5`
+  padding-top:2rem;
   cursor: pointer;
 `;
 
@@ -121,7 +122,7 @@ const HorizontalRule = styled.hr`
   height: 0.1rem;
   border-radius: 0.8rem;
   border: none;
-  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+  background:#fff;
   background-color: #ebd0d0;
   margin: 1.5rem 0 1rem 0;
   backdrop-filter: blur(25px);
@@ -134,8 +135,10 @@ const IconsContainer = styled.div`
   width: 80%;
 `;
 
-const ForgotPassword = styled.h4`
+const ForgotPassword = styled.p`
+  margin-bottom:1.5rem;
   cursor: pointer;
+  font-size:10px;
 `;
 
 export default App;
