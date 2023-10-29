@@ -7,7 +7,6 @@ This repository contains a simple yet elegant login page built using ReactJS and
 
 - Responsive design for seamless viewing on various devices
 - Stylish UI components created with the help of styled components
-- Form validation for ensuring accurate and secure user input
 - Easily customizable styles to suit your project requirements
 
 ### Technologies Used
